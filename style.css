@@ -384,4 +384,16 @@ h3 {
     .coluna-bottom {
         width: 100%;
     }
+
+    /* Linha divisória entre itens no mobile para evitar confusão com quebra de linha */
+    .itens-lista li {
+        border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+        padding-bottom: 4px;
+        margin-bottom: 8px;
+    }
+
+    .itens-lista li:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
 }
