@@ -1,0 +1,782 @@
+{
+    "header_info": {
+        "texto": "NÃO COBRAMOS TAXA DE 10%",
+        "estilo": "azul_destaque"
+    },
+    "footer_info": {
+        "texto": "COBRAMOS COUVERT ARTÍSTICO EM DIAS DE MUSICA AO VIVO (R$ 10,00 / POR PESSOA) - LEI ESTADUAL Nº 9.784/2012",
+        "estilo": "rodape_fixo"
+    },
+    "categorias": [
+        {
+            "id": "entradas",
+            "titulo": "ENTRADAS",
+            "itens": [
+                {
+                    "nome": "BOLINHO DE CARNE SECA COM CATUPIRY",
+                    "preco": 50.00
+                },
+                {
+                    "nome": "BOLINHO DE CUPIM C/ PIMENTA DE CHEIRO",
+                    "preco": 50.00
+                },
+                {
+                    "nome": "BOLINHO DE FEIJOADA",
+                    "preco": 50.00
+                },
+                {
+                    "nome": "BOLINHO DE COSTELA SUINA COM BARBECUE",
+                    "preco": 50.00
+                },
+                {
+                    "nome": "CROQUETE DE LINGUIÇA DE PORCO COM QUEIJO",
+                    "preco": 50.00
+                },
+                {
+                    "nome": "BOLINHO DE SALMÃO COM CREAM CHESSE E ALHO PORÓ",
+                    "preco": 60.00
+                },
+                {
+                    "nome": "BOLINHO DE CAMARÃO",
+                    "preco": 90.00
+                },
+                {
+                    "nome": "BOLINHO DE TILÁPIA",
+                    "preco": 90.00
+                },
+                {
+                    "nome": "PATINHA DE SIRI",
+                    "preco": 90.00
+                },
+                {
+                    "nome": "BOLINHO DE ATUM",
+                    "preco": 70.00
+                },
+                {
+                    "nome": "TORRESMO UNIDADE",
+                    "preco": 28.00
+                },
+                {
+                    "nome": "TORRESMO PORÇÃO",
+                    "preco": 90.00
+                },
+                {
+                    "nome": "CASQUINHA DE SIRI",
+                    "preco": 45.00
+                },
+                {
+                    "nome": "BILINHO DE BACALHAU",
+                    "preco": 75.00
+                },
+                {
+                    "nome": "KIEBER DE FRANGO",
+                    "preco": 60.00
+                },
+                {
+                    "nome": "SALAMINHO",
+                    "preco": 55.00
+                },
+                {
+                    "nome": "OVO DE CODORNA",
+                    "preco": 50.00
+                },
+                {
+                    "nome": "PALMITO",
+                    "preco": 55.00
+                },
+                {
+                    "nome": "AZEITONA",
+                    "preco": 25.00
+                },
+                {
+                    "nome": "TÁBUA DE FRIOS",
+                    "preco": 210.00
+                },
+                {
+                    "nome": "ESCONDIDINHO (CARNE SECA / CAMARÃO)",
+                    "preco": 55.00
+                },
+                {
+                    "nome": "PASTELZINHO (CARNE SECA C/ CATUPIRY / CAMARÃO / COSTELA)",
+                    "descricao": "1 SABOR - 5 UNIDADES",
+                    "preco": 40.00
+                },
+                {
+                    "nome": "PALITINHO DE QUEIJO",
+                    "descricao": "5 UNIDADES",
+                    "preco": 30.00
+                }
+            ],
+            "imagem_fim": "imgs_pdf/img_pastel.png"
+        },
+        {
+            "id": "porcoes",
+            "titulo": "PORÇÕES",
+            "itens": [
+                {
+                    "nome": "CARNE DE SOL",
+                    "preco": 100.00
+                },
+                {
+                    "nome": "CARNE DE SOL COM FRITAS OU AIPIM",
+                    "preco": 140.00
+                },
+                {
+                    "nome": "FILÉ DE BOI",
+                    "preco": 100.00
+                },
+                {
+                    "nome": "FILÉ DE BOI COM FRITAS OU AIPIM",
+                    "preco": 140.00
+                },
+                {
+                    "nome": "TIRINHAS DE FRANGO",
+                    "preco": 80.00
+                },
+                {
+                    "nome": "TIRINHAS DE FRANGO COM FRITAS OU AIPIM",
+                    "preco": 120.00
+                },
+                {
+                    "nome": "CALABRESA ACEBOLADA",
+                    "preco": 80.00
+                },
+                {
+                    "nome": "CALABRESA ACEBOLADA COM FRITAS OU AIPIM",
+                    "preco": 120.00
+                },
+                {
+                    "nome": "LINGUIÇA DE PERNIL ACEBOLADO",
+                    "preco": 80.00
+                },
+                {
+                    "nome": "LINGUIÇA DE PERNIL C/ FRITAS OU AIPIM",
+                    "preco": 120.00
+                },
+                {
+                    "nome": "AIPIM FRITO",
+                    "preco": 40.00
+                },
+                {
+                    "nome": "BATATA FRITA",
+                    "preco": 40.00
+                },
+                {
+                    "nome": "BATATA FRITA C/ CHEDDAR E BACON",
+                    "preco": 80.00
+                }
+            ]
+        },
+        {
+            "id": "especiais_tata",
+            "titulo": "ESPECIAIS TATÁ",
+            "itens": [
+                {
+                    "nome": "PORÇÃO NA TELHA",
+                    "descricao": "(CARNE DE SOL, AIPIM E TORRESMO)",
+                    "preco": 220.00
+                },
+                {
+                    "nome": "FRITADA COMPARTILHADA",
+                    "descricao": "(CARNE SUINA, CARNE BOVINA, FRANGO, CALABRESA E FRITAS)",
+                    "preco": 270.00
+                },
+                {
+                    "nome": "PORÇÃO NA TÁBUA 1",
+                    "descricao": "(CAÇÃO, CAMARÃO, FRITAS E AIPIM. ACOMPANHA ARROZ)",
+                    "preco": 280.00
+                },
+                {
+                    "nome": "PORÇÃO NA TÁBUA 2",
+                    "descricao": "(CARNE DE SOL, LINGUIÇA DE PERNIL, TORRESMO, CARNE SUINA, FRITAS E AIPIM)",
+                    "preco": 360.00
+                },
+                {
+                    "nome": "PORÇÃO NA TÁBUA 3",
+                    "descricao": "(DOURADO, CAÇÃO, TILÁPIA, CAMARÃO E FRITAS. ACOMPANHA ARROZ, BANANA FRITA, VINAGRETE E FAROFA)",
+                    "preco": 440.00
+                },
+                {
+                    "nome": "PORÇÃO NA TÁBUA 4 (APROX. 2 KG)",
+                    "descricao": "(PEROÁ, CAMARÃO E FRITAS OU AIPIM. ACOMPANHA ARROZ, BANANA FRITA, VINAGRETE E FAROFA)",
+                    "preco": 440.00
+                }
+            ]
+        },
+        {
+            "id": "peroa_tata",
+            "titulo": "PEROÁ TATÁ",
+            "itens": [
+                {
+                    "nome": "PEROÁ SALADA (APROX 500G)",
+                    "descricao": "ACOMPANHA FAROFA, SALADA E VINAGRETE",
+                    "preco": 120.00
+                },
+                {
+                    "nome": "PEROÁ COM ARROZ (APROX 500G)",
+                    "descricao": "ACOMPANHA ARROZ, FAROFA, SALADA E VINAGRETE",
+                    "preco": 150.00
+                },
+                {
+                    "nome": "PEROÁ ESPECIAL (APROX 500G)",
+                    "descricao": "ACOMPANHA ARROZ, FRITAS OU AIPIM, BANANA E SALADA",
+                    "preco": 200.00
+                },
+                {
+                    "nome": "PEROÁ ESPECIAL 2 (APROX 1KG)",
+                    "descricao": "ACOMPANHA ARROZ, FRITAS OU AIPIM, BANANA E SALADA",
+                    "preco": 240.00
+                },
+                {
+                    "nome": "PEROÁ TATA C/ CAMARÃO (APROX 500G)",
+                    "descricao": "ACOMPANHA ARROZ, FRITAS OU AIPIM, BANANA E SALADA",
+                    "preco": 260.00
+                },
+                {
+                    "nome": "PEROÁ TATA C/ CAMARÃO (APROX 1KG)",
+                    "descricao": "ACOMPANHA ARROZ, FRITAS OU AIPIM, BANANA E SALADA",
+                    "preco": 300.00
+                },
+                {
+                    "nome": "PEROÁ CORPINHO (APROX 1KG)",
+                    "descricao": "ACOMPANHA ARROZ, FRITAS OU AIPIM, BANANA E SALADA",
+                    "preco": 240.00
+                },
+                {
+                    "nome": "PEROÁ CORPINHO (APROX 2KG)",
+                    "descricao": "ACOMPANHA ARROZ, FRITAS OU AIPIM, BANANA E SALADA",
+                    "preco": 280.00
+                },
+                {
+                    "nome": "PEROÁ CORPINHO C/ CAMARÃO (APROX 1KG)",
+                    "descricao": "ACOMPANHA ARROZ, FRITAS OU AIPIM, BANANA E SALADA",
+                    "preco": 310.00
+                },
+                {
+                    "nome": "PEROÁ CORPINHO C/ CAMARÃO (APROX 2KG)",
+                    "descricao": "ACOMPANHA ARROZ, FRITAS OU AIPIM, BANANA E SALADA",
+                    "preco": 360.00
+                }
+            ],
+            "imagem_fim": "imgs_pdf/img_prato_peixe.png"
+        },
+        {
+            "id": "frutos_mar",
+            "titulo": "FRUTOS DO MAR",
+            "itens": [
+                {
+                    "nome": "POSTA DE DOURADO",
+                    "descricao": "COM SALADA",
+                    "preco": 130.00
+                },
+                {
+                    "nome": "POSTA DE DOURADO COMPLETO",
+                    "descricao": "COM SALADA, FRITAS OU AIPIM E BANANA FRITA",
+                    "preco": 190.00
+                },
+                {
+                    "nome": "ISCA DE CAÇÃO",
+                    "descricao": "COM SALADA",
+                    "preco": 130.00
+                },
+                {
+                    "nome": "ISCA DE CAÇÃO COMPLETA",
+                    "descricao": "COM SALADA, FRITAS OU AIPIM E BANANA FRITA",
+                    "preco": 190.00
+                },
+                {
+                    "nome": "FILÉ DE PESCADINHA",
+                    "descricao": "COM SALADA",
+                    "preco": 130.00
+                },
+                {
+                    "nome": "FILÉ DE PESCADINHA COMPLETA",
+                    "descricao": "COM SALADA, FRITAS OU AIPIM E BANANA FRITA",
+                    "preco": 190.00
+                },
+                {
+                    "nome": "FILÉ DE TILÁPIA",
+                    "descricao": "COM SALADA",
+                    "preco": 140.00
+                },
+                {
+                    "nome": "FILÉ DE TILÁPIA COMPLETA",
+                    "descricao": "COM SALADA, FRITAS OU AIPIM E BANANA FRITA",
+                    "preco": 200.00
+                }
+            ]
+        },
+        {
+            "id": "moquecas",
+            "titulo": "MOQUECAS",
+            "descricao_secao": "TODOS ACOMPANHAM ARROZ E PIRÃO",
+            "tabela": {
+                "colunas": [
+                    "2 PESSOAS",
+                    "4 PESSOAS"
+                ],
+                "itens": [
+                    {
+                        "nome": "CAÇÃO",
+                        "precos": [
+                            220.00,
+                            310.00
+                        ]
+                    },
+                    {
+                        "nome": "DOURADO",
+                        "precos": [
+                            220.00,
+                            310.00
+                        ]
+                    },
+                    {
+                        "nome": "ROBALO",
+                        "precos": [
+                            240.00,
+                            330.00
+                        ]
+                    },
+                    {
+                        "nome": "BADEJO",
+                        "precos": [
+                            240.00,
+                            330.00
+                        ]
+                    }
+                ]
+            },
+            "extras": [
+                {
+                    "nome": "ADICIONAL DE CAMARÃO",
+                    "preco": 80.00
+                },
+                {
+                    "nome": "ADICIONAL DE MOQUEQUINHA DE BANANA DA TERRA",
+                    "preco": 40.00
+                }
+            ],
+            "imagem_fim": "imgs_pdf/img_prato_peixe_empanado.png"
+        },
+        {
+            "id": "guarnicoes",
+            "titulo": "GUARNIÇÕES",
+            "itens": [
+                {
+                    "nome": "ARROZ",
+                    "preco": 20.00
+                },
+                {
+                    "nome": "BANANA FRITA",
+                    "preco": 25.00
+                },
+                {
+                    "nome": "VINAGRETE",
+                    "preco": 20.00
+                },
+                {
+                    "nome": "FAROFA",
+                    "preco": 20.00
+                },
+                {
+                    "nome": "SALADA SIMPLES",
+                    "preco": 30.00
+                },
+                {
+                    "nome": "FEIJÃO CALDO",
+                    "preco": 15.00
+                },
+                {
+                    "nome": "MOLHO DA CASA",
+                    "preco": 2.00
+                }
+            ]
+        },
+        {
+            "id": "cervejas",
+            "titulo": "CERVEJAS",
+            "itens": [
+                {
+                    "nome": "AMSTEL 600ML",
+                    "preco": 17.00
+                },
+                {
+                    "nome": "HEINEKEN 600ML",
+                    "preco": 24.00
+                },
+                {
+                    "nome": "BRAHMA 600ML",
+                    "preco": 17.00
+                },
+                {
+                    "nome": "STELLA ARTOIS 600ML",
+                    "preco": 21.00
+                },
+                {
+                    "nome": "SPATEN 600ML",
+                    "preco": 21.00
+                },
+                {
+                    "nome": "ORIGINAL 600ML",
+                    "preco": 21.00
+                },
+                {
+                    "nome": "CORONA 600ML",
+                    "preco": 25.00
+                },
+                {
+                    "nome": "AMSTEL LONG NECK",
+                    "preco": 13.00
+                },
+                {
+                    "nome": "AMSTEL ULTRA LONG NECK",
+                    "preco": 13.00
+                },
+                {
+                    "nome": "HEINEKEN LONG NECK",
+                    "preco": 13.00
+                },
+                {
+                    "nome": "HEINEKEN 0.0% LONG NECK",
+                    "preco": 13.00
+                },
+                {
+                    "nome": "CORONA LONG NECK",
+                    "preco": 13.00
+                },
+                {
+                    "nome": "BUDWEISER LONG NECK",
+                    "preco": 13.00
+                },
+                {
+                    "nome": "STELLA ARTOIS LONG NECK",
+                    "preco": 13.00
+                },
+                {
+                    "nome": "BADEN BADEN",
+                    "preco_texto": "CONSULTE-NOS"
+                },
+                {
+                    "nome": "LAGUNITAS",
+                    "preco_texto": "CONSULTE-NOS"
+                },
+                {
+                    "nome": "BLUE MOON",
+                    "preco_texto": "CONSULTE-NOS"
+                },
+                {
+                    "nome": "HEINEKEN 0.0% LATA",
+                    "preco": 12.00
+                },
+                {
+                    "nome": "BRAHMA LATA",
+                    "preco": 12.00
+                },
+                {
+                    "nome": "HEINEKEN LATÃO",
+                    "preco": 14.00
+                },
+                {
+                    "nome": "AMSTEL LATÃO",
+                    "preco": 12.00
+                },
+                {
+                    "nome": "BRAHMA LATÃO",
+                    "preco": 12.00
+                }
+            ]
+        },
+        {
+            "id": "bebidas",
+            "titulo": "BEBIDAS",
+            "itens": [
+                {
+                    "nome": "ÁGUA MINERAL",
+                    "preco": 6.00
+                },
+                {
+                    "nome": "ÁGUA MINERAL COM GÁS",
+                    "preco": 7.00
+                },
+                {
+                    "nome": "ÁGUA TÔNICA",
+                    "preco": 10.00
+                },
+                {
+                    "nome": "ÁGUA DE COCO",
+                    "preco": 12.00
+                },
+                {
+                    "nome": "REFRIGERANTE LATA",
+                    "preco": 10.00
+                },
+                {
+                    "nome": "REFRIGERANTE 600ML",
+                    "preco": 17.00
+                },
+                {
+                    "nome": "REFRIGERANTE 1,5LTS",
+                    "preco": 22.00
+                },
+                {
+                    "nome": "REFRIGERANTE 2LTS",
+                    "preco": 25.00
+                },
+                {
+                    "nome": "H2OH",
+                    "preco": 12.00
+                },
+                {
+                    "nome": "ENERGÉTICO RED BULL",
+                    "preco": 18.00
+                },
+                {
+                    "nome": "ICE 51 SABORES",
+                    "preco": 14.00
+                },
+                {
+                    "nome": "SKOL BEATS",
+                    "preco": 15.00
+                },
+                {
+                    "nome": "SUCO NATURAL",
+                    "descricao": "LARANJA, LIMÃO, GOIABA, MARACUJÁ, MANGA, ABACAXI C/ HORTELÃ, MORANGO OU GRAVIOLA",
+                    "preco": 15.00
+                }
+            ],
+            "imagem_fim": "imgs_pdf/img_bebidas.png"
+        },
+        {
+            "id": "doses",
+            "titulo": "DOSES",
+            "itens": [
+                {
+                    "nome": "WHISKY J. W. RED LABEL",
+                    "preco": 30.00
+                },
+                {
+                    "nome": "WHISKY J. W. BLACK LABEL",
+                    "preco": 30.00
+                },
+                {
+                    "nome": "WHISKY CHIVAS REGAL",
+                    "preco": 35.00
+                },
+                {
+                    "nome": "GIN",
+                    "preco": 22.00
+                },
+                {
+                    "nome": "TEQUILA",
+                    "preco": 22.00
+                },
+                {
+                    "nome": "CAMPARI",
+                    "preco": 18.00
+                },
+                {
+                    "nome": "MARTINI",
+                    "preco": 18.00
+                },
+                {
+                    "nome": "RUM BACARDI",
+                    "preco": 18.00
+                },
+                {
+                    "nome": "VODKA ORLOFF",
+                    "preco": 18.00
+                },
+                {
+                    "nome": "VODKA SMIRNOFF",
+                    "preco": 22.00
+                },
+                {
+                    "nome": "VODKA ABSOLUT",
+                    "preco": 27.00
+                },
+                {
+                    "nome": "CACHAÇA SELETA",
+                    "preco": 12.00
+                },
+                {
+                    "nome": "CONHEQUE DREHER",
+                    "preco": 10.00
+                },
+                {
+                    "nome": "CONHEQUE DOMECQ",
+                    "preco": 14.00
+                },
+                {
+                    "nome": "SHOT DE LIMÃO",
+                    "preco": 5.00
+                }
+            ]
+        },
+        {
+            "id": "drinks",
+            "titulo": "DRINKS",
+            "itens": [
+                {
+                    "nome": "CAIPIRÍSSIMA (RUM BACARDI, LIMÃO, AÇÚCAR E GELO)",
+                    "preco": 28.00
+                },
+                {
+                    "nome": "CAIPIRINHA (CACHAÇA SELETA, LIMÃO, AÇÚCAR E GELO)",
+                    "preco": 30.00
+                },
+                {
+                    "nome": "CAIPIRINHA PINGA (PINGA, LIMÃO, AÇÚCAR E GELO)",
+                    "preco": 25.00
+                },
+                {
+                    "nome": "CAIPIVODKA ORLOFF (VODKA ORLOFF, LIMÃO, AÇÚCAR E GELO)",
+                    "preco": 33.00
+                },
+                {
+                    "nome": "CAIPIVODKA SMIRNOFF (VODKA SMIRNOFF, LIMÃO, AÇÚCAR E GELO)",
+                    "preco": 35.00
+                },
+                {
+                    "nome": "CAIPIVODKA ABSOLUT (VODKA ABSOLUT, LIMÃO, AÇÚCAR E GELO)",
+                    "preco": 38.00
+                },
+                {
+                    "nome": "CAIPIFRUTA CREMOSA ORLOFF",
+                    "preco": 38.00
+                },
+                {
+                    "nome": "CAIPIFRUTA CREMOSA SMIRNOFF",
+                    "preco": 40.00
+                },
+                {
+                    "nome": "CAIPIFRUTA CREMOSA ABSOLUT",
+                    "preco": 40.00
+                },
+                {
+                    "nome": "GIN TROPICAL",
+                    "preco": 44.00
+                },
+                {
+                    "nome": "GIN TÔNICA",
+                    "preco": 44.00
+                },
+                {
+                    "nome": "GIN PRAIANO",
+                    "preco": 44.00
+                },
+                {
+                    "nome": "DRINK SEM ÁLCOOL",
+                    "preco": 25.00
+                }
+            ],
+            "imagem_fim": "imgs_pdf/img_drink_azul.png"
+        },
+        {
+            "id": "drinks_classicos",
+            "titulo": "DRINKS CLÁSSICOS",
+            "itens": [
+                {
+                    "nome": "GIN FIZZ",
+                    "preco": 45.00
+                },
+                {
+                    "nome": "PIÑA COLADA",
+                    "preco": 45.00
+                },
+                {
+                    "nome": "SEX ON THE BEACH",
+                    "preco": 45.00
+                },
+                {
+                    "nome": "MOSCOW MULE",
+                    "preco": 45.00
+                },
+                {
+                    "nome": "MOJITO",
+                    "preco": 45.00
+                },
+                {
+                    "nome": "GIN PITAIA",
+                    "preco": 45.00
+                },
+                {
+                    "nome": "TEQUILA SOUR",
+                    "preco": 45.00
+                },
+                {
+                    "nome": "APEROL SPRITZ",
+                    "preco": 45.00
+                },
+                {
+                    "nome": "NEGRONE",
+                    "preco": 40.00
+                },
+                {
+                    "nome": "LAGOA AZUL",
+                    "preco": 45.00
+                },
+                {
+                    "nome": "MARACUJACK GINGER",
+                    "preco": 55.00
+                },
+                {
+                    "nome": "MARGARITA",
+                    "preco": 45.00
+                },
+                {
+                    "nome": "COSMOPOLITAN",
+                    "preco": 45.00
+                }
+            ]
+        },
+        {
+            "id": "vinhos_espumantes",
+            "titulo": "ESPUMANTES & VINHOS",
+            "itens": [
+                {
+                    "nome": "CHANDON",
+                    "preco": 250.00
+                },
+                {
+                    "nome": "SALTON",
+                    "preco": 120.00
+                },
+                {
+                    "nome": "SALTON ROSÉ",
+                    "preco": 140.00
+                },
+                {
+                    "nome": "CASAL GARCIA",
+                    "preco": 150.00
+                },
+                {
+                    "nome": "FREIXENET",
+                    "preco": 150.00
+                }
+            ],
+            "imagem_fim": "imgs_pdf/img_coconut.png"
+        },
+        {
+            "id": "pratos_kids",
+            "titulo": "TEMOS PRATOS KIDS!",
+            "tipo": "destaque_kids",
+            "itens": [
+                {
+                    "descricao": "OPÇÕES DE PROTEINA: BOI / FRANGO / OVO\nARROZ / FEIJÃO DE CALDO / BATATA FRITA / TOMATE",
+                    "preco": 29.90
+                }
+            ]
+        }
+    ],
+    "informacoes_finais": {
+        "instagram": "@QUIOSQUETATA",
+        "avisos": [
+            "NÃO VENDEMOS BEBIDAS ALCOÓLICAS A MENORES DE 18 ANOS",
+            "NÃO COBRAMOS TAXA DE 10%",
+            "NÃO ACEITAMOS CHEQUES",
+            "SE BEBER NÃO DIRIJA",
+            "CONTÉM GLÚTEN",
+            "TELEFONE PROCON: 151"
+        ]
+    }
+}

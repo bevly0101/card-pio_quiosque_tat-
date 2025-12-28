@@ -1,0 +1,387 @@
+/* Reset & Base Styles */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url('imgs_pdf/background.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    color: #000;
+    padding-bottom: 60px;
+}
+
+.header-info-container {
+    width: 100%;
+    text-align: right;
+    padding: 10px 20px;
+}
+
+.azul-destaque {
+    color: #44bfd5;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 1px 1px 0px white;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.menu-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    color: #000;
+}
+
+/* Layout Grid System */
+/* Main Grid (Top) */
+.main-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.coluna {
+    width: 50%;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Bottom Grid (Pages 7-8) */
+.bottom-section {
+    width: 100%;
+    margin-top: 20px;
+    border-top: 2px dashed rgba(0, 0, 0, 0.2);
+    padding-top: 20px;
+}
+
+.bottom-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.coluna-bottom {
+    width: 49%;
+    padding: 0 5px;
+    margin-bottom: 20px;
+}
+
+/* Category Sections */
+.categoria-section {
+    margin-bottom: 25px;
+    background: transparent;
+    width: 100%;
+}
+
+.categoria-titulo {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #000;
+    display: inline-block;
+    line-height: 1;
+    padding-right: 5px;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.8);
+    word-wrap: break-word;
+}
+
+.itens-lista {
+    list-style: none;
+}
+
+.item-linha {
+    margin-bottom: 2px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: flex-end;
+    font-weight: 700;
+    width: 100%;
+}
+
+.item-nome {
+    text-transform: uppercase;
+    color: #000;
+    flex-shrink: 1;
+}
+
+.item-dots {
+    flex-grow: 1;
+    border-bottom: 2px dotted #000;
+    margin: 0 2px;
+    opacity: 0.7;
+    position: relative;
+    top: -4px;
+    min-width: 10px;
+}
+
+.item-preco {
+    color: #E74C3C;
+    font-weight: 700;
+    font-size: 1rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.item-descricao {
+    font-size: 0.75rem;
+    color: #222;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.tabela-precos {
+    width: 100%;
+    margin-top: 5px;
+    border-collapse: collapse;
+    font-size: 0.75rem;
+}
+
+.tabela-precos th {
+    background-color: #3498db;
+    color: white;
+    padding: 4px;
+    font-family: 'Anton', sans-serif;
+    font-size: 0.8rem;
+}
+
+.tabela-precos td {
+    padding: 4px;
+    font-weight: bold;
+    border-bottom: 1px dotted #000;
+}
+
+.tabela-precos .nome-prato {
+    text-align: left;
+}
+
+.tabela-precos .preco-col {
+    text-align: right;
+    color: #E74C3C;
+}
+
+.descricao-secao {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-style: italic;
+    color: #444;
+    font-size: 0.8rem;
+}
+
+.imagem-ilustrativa-container {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.imagem-ilustrativa {
+    max-width: 90%;
+    height: auto;
+    max-height: 150px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    transform: rotate(-2deg);
+    border: 3px solid white;
+}
+
+.footer-fixo {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.texto-rodape {
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Adições para Pratos Kids e Informações Finais */
+
+.kids-container {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.titulo-kids {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.desc-kids {
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: #000;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.preco-kids {
+    font-size: 2.5rem;
+    color: #E74C3C;
+    font-weight: 900;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 2px 2px 0px white;
+}
+
+.informacoes-finais-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+}
+
+.insta-text {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-family: 'Anton', sans-serif;
+}
+
+.lista-avisos-finais {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-avisos-finais li {
+    font-weight: 900;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #000;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+}
+
+@media (min-width: 1024px) {
+    .categoria-titulo {
+        font-size: 2.5rem;
+    }
+
+    .item-linha {
+        font-size: 1.2rem;
+    }
+
+    .item-preco {
+        font-size: 1.3rem;
+    }
+
+    .item-descricao {
+        font-size: 0.9rem;
+    }
+
+    .coluna,
+    .coluna-bottom {
+        padding: 0 15px;
+    }
+
+    .imagem-ilustrativa {
+        max-height: 250px;
+    }
+
+    .texto-rodape {
+        font-size: 0.9rem;
+    }
+
+    .azul-destaque {
+        font-size: 1.3rem;
+    }
+
+    .titulo-kids {
+        font-size: 3rem;
+    }
+
+    .desc-kids {
+        font-size: 1.5rem;
+    }
+
+    .preco-kids {
+        font-size: 4rem;
+    }
+
+    .lista-avisos-finais li {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .categoria-titulo {
+        font-size: 1.1rem;
+        border-bottom-width: 2px;
+    }
+
+    .item-linha {
+        font-size: 0.75rem;
+    }
+
+    .item-preco {
+        font-size: 0.8rem;
+    }
+
+    .tabela-precos {
+        font-size: 0.6rem;
+    }
+
+    .menu-container {
+        padding: 5px;
+    }
+
+    .azul-destaque {
+        font-size: 0.9rem;
+    }
+
+    /* No mobile, talvez bottom grid deva ser 100% */
+    .coluna-bottom {
+        width: 100%;
+    }
+}
